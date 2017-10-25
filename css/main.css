@@ -1,15 +1,56 @@
-div p{
-/*  left: 0;
-  bottom: 0;
-  display: inline-block;*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 div img{
-  width: 200px;
+  width: 300px;
 }
 
-div {
-  display: inline-block;
-  position: relative;
+h3 {
+  font-size: 40px;
+  text-align: left;
+  margin-top: 20px;
+}
 
+.title::after {
+  content: "";
+  width: 20%;
+  height: 5px;
+  background-color: black;
+  display: block;
+}
+
+
+p {
+  margin-left: 100px;
+  margin-top: -30px;
+  color: pink;
+}
+section {
+  display: block;
+  font-size: 20px;
+  position: relative;
+  border: none;
+  width: 1200px;
+  height: 700px;
+
+
+}
+
+.h3::before {
+  content: "";
+  width: 5%;
+  height: 5px;
+  background-color: #000;
+  display: block;
+}
+
+.coders {
+  height: 300px;
+  width: 300px;
+  padding-top: 50px;
+  float: left;
+  margin: 1em;
 }
